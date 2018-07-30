@@ -1,0 +1,21 @@
+{
+  "description": "Log HTTP traffic",
+  "manifest_version": 2,
+  "author": "Chris Merrill",
+  "name": "Web Performance Http Monitor",
+  "version": "1.0",
+  "permissions": [
+    "webRequest",
+    "cookies",
+    "<all_urls>"
+  ],
+
+  "applications": {
+    "gecko": {
+        "id": "WebPerformanceHttpMonitor-1.0@webperformance.com"
+    }
+},
+  "background": {
+    "scripts": ["axios.js", "messages.js", "http.js", "background.js"]
+  }
+}
