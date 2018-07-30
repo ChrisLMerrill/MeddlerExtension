@@ -1,8 +1,8 @@
 {
-  "description": "Log HTTP traffic",
+  "description": "Report HTTP traffic to the Meddler Gateway",
   "manifest_version": 2,
   "author": "Chris Merrill",
-  "name": "Web Performance Http Monitor",
+  "name": "Meddler",
   "version": "1.0",
   "permissions": [
     "webRequest",
@@ -12,7 +12,7 @@
 
   "applications": {
     "gecko": {
-        "id": "WebPerformanceHttpMonitor-1.0@webperformance.com"
+        "id": "Meddler-1.0@webperformance.com"
     }
 },
   "background": {
